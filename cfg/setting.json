@@ -1,0 +1,27 @@
+{
+    "n_deliveries": 100,
+    "n_vehicles": 10,
+    "vols_vehicles": [
+    50,
+    10,
+    10,
+    10,
+    50,
+    50,
+    50,
+    50,
+    50,
+    10
+  ],
+    "costs_vehicles": [10,5,5,5,10,10,10,10,10,5],
+    "vol_distr": {
+        "name": "uniform",
+        "min_vol_bins": 0.5,
+        "max_vol_bins": 1
+    },
+    "funct_cost_dict": {
+        "name": "constant",
+        "K": 0.1
+    },
+    "distance_function": "euclidian"
+}
